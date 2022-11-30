@@ -9,7 +9,7 @@ class Database {
 
     public $mysql;
 
-    public function _construct(){
+    public function __construct(){
 
         try{
             $this->mysql = $this->getConnection();
@@ -36,3 +36,5 @@ class Database {
         return $pdo;
     }
 }
+
+?>
