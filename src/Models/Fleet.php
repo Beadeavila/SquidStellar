@@ -12,22 +12,22 @@ class Fleet{
     private string $Message;
     private string $Sector;
     private string $Image;
-    private ?string $dateTime;
+    private ?string $Date;
 
     private $table = "squidfleet";
     private $database;
 
 
-    public function __construct($id =null,$SpaceShip ='',$Commander='',$Message='',$Sector='',$Image='',$dateTime = null
+    public function __construct($id =null,$spaceship ='',$commander='',$message='',$sector='',$image='',$date = null
     )
     {
         $this->id =$id;
-        $this->spaceship =$Spaceship;
-        $this->commander =$Commander;
-        $this->message =$Message;
-        $this->sector =$Sector;
-        $this->image =$Image;
-        $this->dateTime =$dateTime;
+        $this->spaceship =$spaceship;
+        $this->commander =$commander;
+        $this->message =$message;
+        $this->sector =$sector;
+        $this->image =$image;
+        $this->date =$date;
 
         if(!$this->database){
             $this->database = new Database();
