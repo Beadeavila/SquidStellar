@@ -1,6 +1,7 @@
 <?php
 
 namespace SquidStellar\Controllers;
+
 use SquidStellar\Core\View;
 use SquidStellar\Models\Fleet;
 

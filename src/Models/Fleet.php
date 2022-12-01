@@ -38,8 +38,8 @@ echo "estoy en el modelo coder";
     
     $spaceshipList = [];
 
-    foreach ($spaceshipArray as $fleet){
-        $spaceshipItem = new Spaceship($fleet["id"],$fleet["spaceship"],$fleet["commander"],$fleet["message"],$fleet["sector"],$fleet["image"],$fleet["date"]);
+    foreach ($spaceshipArray as $spaceship){
+        $spaceshipItem = new Fleet($spaceship["id"],$spaceship["spaceship"],$spaceship["commander"],$spaceship["message"],$spaceship["sector"],$spaceship["image"],$spaceship["date"]);
         array_push($spaceshipList, $spaceshipItem);
         }
     return $spaceshipList;
