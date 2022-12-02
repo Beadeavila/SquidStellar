@@ -13,7 +13,7 @@ class Database {
 
         try{
             $this->mysql = $this->getConnection();
-            echo "Transmisión realizada con éxito a la base";
+            //echo "Transmisión realizada con éxito a la base";
         }
         catch(PDOException $e){
             echo "Transmisión interceptada: " . $e->getMessage();

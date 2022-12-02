@@ -12,7 +12,7 @@ class SpaceShipController{
 
     }
     public function index(){
-        echo "estas en el controlador";
+       
         $spaceship = new Fleet;
 
         $fleet = $spaceship->all();

@@ -23,7 +23,7 @@ class Fleet{
         $this->sector =$sector;
         $this->date =$date;
             
-            echo "estoy en el modelo Stellar";
+           
 
         if(!$this->database){
             $this->database = new Database();
