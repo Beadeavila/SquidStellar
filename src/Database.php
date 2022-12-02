@@ -25,8 +25,6 @@ class Database {
         $user = "root";
         $password = "";
         $database = "stellarcommander";
-
-        //el nombre de base de datos habría que revisar si es correcto
         
         $charset = "utf-8";
         $options = [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];

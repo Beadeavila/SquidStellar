@@ -5,5 +5,7 @@ namespace SquidStellar;
 use SquidStellar\Controllers\SpaceShipController;
 
 $controller = new SpaceShipController();
-echo "estoyy en index";
+
+echo "estoy en index";
+
 ?>
