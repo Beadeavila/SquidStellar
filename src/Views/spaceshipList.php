@@ -1,14 +1,20 @@
 <html>
     <?php
         require_once("Components/layout.php");
+    
     ?>
 
-
     <body>
+        <?php
+            require_once("Components/header.php");
+        
+        ?>
         <main>
-       
-            <?php
+            <a href="?action=create">
+               <button type="button">New report</button> 
+            </a>
 
+            <?php
 
                 foreach($data["spaceship"] as $spaceship){
                     /* echo "{$spaceship->getId()}";
@@ -44,6 +50,9 @@
             
         </main>
 
-
+        <?php
+            require_once("Components/footer.php");
+    
+        ?>
     </body>
 </html>
