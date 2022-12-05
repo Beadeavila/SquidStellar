@@ -21,7 +21,14 @@ class SpaceShipController{
             return;
         }
 
+
+        if(isset($_GET["action"]) && ($_GET["action"] == "delete")){
+
+            $this->delete($_GET["id"]);
+            return;
+        }
             $this->index();
+
     }
 
     public function index(){
@@ -49,6 +56,17 @@ class SpaceShipController{
         $this->index();
 
     }
+
+    public function delete($id){
+
+        $spaceshipHelper = new Fleet();
+
+        $fleet = $spaceshipHelper -> findById($id);
+
+        $fleet->destroy();    
+
+    }
+
 
 
 }

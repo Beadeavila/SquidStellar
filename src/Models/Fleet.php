@@ -79,6 +79,24 @@ class Fleet{
        $this->database->mysql->query("INSERT INTO {$this->table} (`spaceship`, `commander`, `message`, `sector`) VALUES ('$this->spaceship', '$this->commander', '$this->message', '$this->sector')");
 
     }
+
+    public function findById($id){
+
+        $query=$this->database->mysql->query("SELECT * FROM `{$this->table}` WHERE `id` ={$id}");
+
+        $result = $query->fetchAll();
+
+        return new Fleet ($result[0]["id"],$result[0]["spaceship"],$result[0]["commander"],$result[0]["message"],$result[0]["sector"],$result[0]["date"]);
+ 
+     }
+
+     public function destroy(){
+
+        $query = $this->database->mysql->query ("DELETE * FROM `{$this->table}` WHERE `{$this->table}` `id` = {$this->id}");
+
+
+
+     }
     
 
 }

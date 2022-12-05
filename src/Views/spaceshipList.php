@@ -42,6 +42,9 @@
                                 </div>
                             </div>
                         </div>
+                        <div>
+                            <a href='?action=delete&id={$spaceship->getId()}'>❌</a>
+                        </div>
                     </div>
                     ";
 
