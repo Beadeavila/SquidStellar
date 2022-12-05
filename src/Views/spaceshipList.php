@@ -24,7 +24,7 @@
                     <div class='card mb-3' style='max-width: 80%;' >
                         <div class='row g-0'>
                                 <div class='col-md-4'>
-                                    <img src='/public/cohete.png' class='img-fluid rounded-start' alt='logo squid'>
+                                    <img src='public/cohete.png' class='img-fluid rounded-start' alt='logo squid'>
                                 </div>
                             <div class='col-md-8'>
                                 <div class='card-body'>
