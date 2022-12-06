@@ -63,7 +63,8 @@ class SpaceShipController{
 
         $fleet = $spaceshipHelper -> findById($id);
 
-        $fleet->destroy();    
+        $fleet->destroy(); 
+        $this->index();   
 
     }
 

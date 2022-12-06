@@ -76,7 +76,7 @@ class Fleet{
 
     public function save(){
 
-       $this->database->mysql->query("INSERT INTO {$this->table} (`spaceship`, `commander`, `message`, `sector`) VALUES ('$this->spaceship', '$this->commander', '$this->message', '$this->sector')");
+    $this->database->mysql->query("INSERT INTO {$this->table} (`spaceship`, `commander`, `message`, `sector`) VALUES ('$this->spaceship', '$this->commander', '$this->message', '$this->sector')");
 
     }
 
@@ -92,11 +92,11 @@ class Fleet{
 
      public function destroy(){
 
-        $query = $this->database->mysql->query ("DELETE * FROM `{$this->table}` WHERE `{$this->table}` `id` = {$this->id}");
+        $query = $this->database->mysql->query("DELETE FROM `{$this->table}` WHERE `{$this->table}`.`id` = {$this->id}");
 
 
 
      }
-    
+   
 
 }
