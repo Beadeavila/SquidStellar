@@ -43,7 +43,7 @@
                             </div>
                         </div>
                         <div>
-                            <a href='?action=delete&id={$spaceship->getId()}' onclick='ConfirmDelete()'><button type='button'>Delete</button></a>
+                            <a href='?action=delete&id={$spaceship->getId()}'><button onclick='confirmDelete()' type='button' >Delete</button></a>
                             <a href='?action=edit&id={$spaceship->getId()}'><button type='button'>Modify</button></a>
                         </div>
                     </div>

@@ -1,4 +1,6 @@
-function ConfirmDelete()
-{
-  return confirm("Are you sure you want to delete?");
+function confirmDelete() {
+  alert("This report will be terminated");
 }
+
+
+
