@@ -20,7 +20,7 @@
                         </div>
                         <div>
                                 <span>Message</span>
-                                <input type="text" name="message" required value="<?php echo $data["spaceship"]->getMessage() ?>">
+                                <textarea type="text" name="message"><?php echo $data["spaceship"]->getMessage() ?></textarea>
                         </div>
                         <div>
                                 <span>Sector</span>
