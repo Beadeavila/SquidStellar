@@ -43,7 +43,8 @@
                             </div>
                         </div>
                         <div>
-                            <a href='?action=delete&id={$spaceship->getId()}'>❌</a>
+                            <a href='?action=delete&id={$spaceship->getId()}'>Delete</a>
+                            <a href='?action=edit&id={$spaceship->getId()}'>Modify</a>
                         </div>
                     </div>
                     ";

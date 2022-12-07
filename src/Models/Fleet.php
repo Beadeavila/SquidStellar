@@ -94,7 +94,21 @@ class Fleet{
 
         $query = $this->database->mysql->query("DELETE FROM `{$this->table}` WHERE `{$this->table}`.`id` = {$this->id}");
 
+     }
+   
+     
+     public function rename($spaceshipNew,$commanderNew,$messageNew,$sectorNew){
 
+        $this->spaceship=$spaceshipNew;
+        $this->commander=$commanderNew;
+        $this->message=$messageNew;
+        $this->sector=$sectorNew;
+
+    }
+
+     public function update(){
+
+        $this->database->mysql->query("UPDATE `{$this->table}` SET `spaceship` = '{$this->spaceship}',`commander` = '{$this->commander}', `message` = '{$this->message}', `sector` = '{$this->sector}' WHERE `ID` = {$this->id}" );
 
      }
    

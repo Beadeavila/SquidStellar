@@ -27,7 +27,21 @@ class SpaceShipController{
             $this->delete($_GET["id"]);
             return;
         }
-            $this->index();
+
+        if(isset($_GET["action"]) && ($_GET["action"] == "edit")){
+
+            $this->edit($_GET["id"]);
+            return;
+        }
+
+        if(isset($_GET["action"]) && ($_GET["action"] == "update")){
+
+            $this->update($_POST,$_GET["id"]);
+            return;
+        }
+
+        $this->index();
+
 
     }
 
@@ -67,6 +81,30 @@ class SpaceShipController{
         $this->index();   
 
     }
+
+    public function edit($id){
+
+        $spaceshipHelper = new Fleet();
+
+        $fleet = $spaceshipHelper -> findById($id);
+
+        new View ("editReport", ["spaceship"=>$fleet]);
+
+    }
+
+    public function update(array $request,$id){
+
+        $spaceshipHelper = new Fleet();
+
+        $fleet = $spaceshipHelper -> findById($id);
+
+        $fleet->rename($request["spaceship"],$request["commander"],$request["message"],$request["sector"]);
+
+        $fleet->update();
+
+        $this->index();
+    }
+
 
 
 
