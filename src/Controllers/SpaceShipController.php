@@ -46,7 +46,7 @@ class SpaceShipController{
     }
 
     public function index(){
-       
+
         $spaceship = new Fleet;
 
         $fleet = $spaceship->all();
