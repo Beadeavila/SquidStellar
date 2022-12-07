@@ -43,8 +43,8 @@
                             </div>
                         </div>
                         <div>
-                            <a href='?action=delete&id={$spaceship->getId()}'>Delete</a>
-                            <a href='?action=edit&id={$spaceship->getId()}'>Modify</a>
+                            <a href='?action=delete&id={$spaceship->getId()}' onclick='ConfirmDelete()'><button type='button'>Delete</button></a>
+                            <a href='?action=edit&id={$spaceship->getId()}'><button type='button'>Modify</button></a>
                         </div>
                     </div>
                     ";
@@ -58,5 +58,6 @@
             require_once("Components/footer.php");
     
         ?>
+        <script src="js/index.js"></script>
     </body>
 </html>
