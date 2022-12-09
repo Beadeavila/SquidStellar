@@ -1,7 +1,7 @@
-### 🌟 *SQUIDSTELLAR* 🌟
+![logo SquidStellar negro](https://user-images.githubusercontent.com/116545851/206684326-c44dd9d4-9af5-43e0-bc28-674090033126.png)
 
 ## Project name: 
-SquidStellar
+SquidStellar (A SquidCoders project)
 ***
 
 ## Description:
@@ -34,7 +34,7 @@ A CRUD project in PHP and MySQL using the MVC pattern, where you:
 
 * Figma project <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> 
 
-![Figma captura](https://user-images.githubusercontent.com/116545851/205133487-9173a7d0-8557-4e92-b933-db39f0e5e793.PNG)
+
 
 ## Stacks:
 
