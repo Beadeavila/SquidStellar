@@ -6,14 +6,14 @@ SquidStellar (A SquidCoders project)
 
 ## Description:
 
-A CRUD project in PHP and MySQL using the MVC pattern, where you:
+Following the previous project SquidCoders, we maintained the name SQUID in this new project but change it to Squid Stellar.
 
-* Create a Homepage where you can read all the messages received from different fiction spaceships 🚀.The user can modify or delete these messages by simply clicking a button.
+Our goal was to build a CRUD (Create, Read,Update and Delete) project in PHP and MySQL using the MVC (Model-View-Controller) pattern, where you can:
 
-* In that case,an HTML form to modify messages appears on screen.
-
-* There is also an HTML form where you can upload messages from your spaceship to our space (data)base.
-
+* Find a Homepage where you can read all the messages received from different fiction spaceships 🚀.
+* Create a new report by pressing the New Report button: a  HTML form appears where you can upload reports from your spaceship to our space (data)base.
+* Modify or delete reports by simply clicking a button.
+* In case of clicking on modify,an HTML form to modify reports appears on screen loading the already uploaded data from the database.
 * The  whole project is designed for desktop view exclusively.
 ***
 
@@ -34,7 +34,7 @@ A CRUD project in PHP and MySQL using the MVC pattern, where you:
 
 * Figma project <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> 
 
-
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Stacks:
 
@@ -50,11 +50,38 @@ A CRUD project in PHP and MySQL using the MVC pattern, where you:
   <p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a></p>
   
   * Other technologies used:
-<p align ="left"><a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> </p>
+<p align ="left"><a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
+<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/116545851/206753577-40777644-bb10-428b-ae9c-597a54a58df6.png" alt="visual studio" width="40" height="40"/></a> 
+</p>
+
+***
+## Tests:
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+***
 
 ## Methodology:
+
 * Agile with SCRUM in *Mob and Pair programming*
+
 ***
 
 ## Next steps:
-* Coming soon
+
+xxxxxxxxxxxxxxxxxxxxx
+
+***
+
+## How to install:
+
+Please follow these instructions:
+
+* Open Visual Studio Code and press new Terminal + Git Bash
+* ⬇️ Download XAMPP from https://www.apachefriends.org/es/index.html
+* ⬇️ Download COMPOSER (Dependency manager for PHP) from https://getcomposer.org/ on the Download section
+* Run Composer-Setup.exe. Choose Installation for all users
+* Go back to Visual Studio Code in New Terminal and write:
+* $ git clone https://github.com/Beadeavila/SquidStellar
+* $ composer install
+* $ composer update
