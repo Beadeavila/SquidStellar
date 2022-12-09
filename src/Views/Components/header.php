@@ -1,3 +1,3 @@
 <header>
-    <h1>SQUID STELLAR</h1>
+    <h1>SQUID STELLAR (A SquidCoders project)</h1>
 </header>
