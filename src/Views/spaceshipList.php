@@ -1,14 +1,13 @@
 <html>
     <?php
         require_once("Components/layout.php");
+        require_once("Components/header.php");
     ?>
 
     <body>
-        <?php
-            require_once("Components/header.php");
-        ?>
+
         <main>
-            <a href="?action=create">
+            <a class="addReportButton" href="?action=create">
                <button type="button">New report</button> 
             </a>
 
@@ -25,24 +24,26 @@
                     
                     echo "
                     
-                    <div class='card mb-3' style='max-width: 80%;' >
+                    <div class='card mb-3'>
                         <div class='row g-0'>
-                                <div class='col-md-4'>
-                                    <img src='public/cohete.png' class='img-fluid rounded-start' alt='logo squid'>
+                                <div class=' imgContainer col-md-4'>
+                                    <img src='public/images/squidAvatar.svg' class='img-fluid rounded-start' alt='logo squid'>
                                 </div>
-                            <div class='col-md-8'>
-                                <div class='card-body'>
-                                    <h5 class='card-title'>{$spaceship->getSpaceship()}</h5>
-                                    <p class='card-text'>{$spaceship->getCommander()}</p>
-                                    <p class='card-text'>{$spaceship->getMessage()}</p>
-                                    <p class='card-text'>{$spaceship->getSector()}</p>
-                                    <p class='card-text'><small class='text-muted'>{$spaceship->getDate()}</small></p>
+                            <div class='dataContainer col-md-8'>
+                                <div class='spaceshipData'>
+                                    <h2 class='card-title'>{$spaceship->getSpaceship()}</h2>
+                                    <p class='card-text spaceshipCommander'>{$spaceship->getCommander()}</p>
+                                    <p class='card-text spaceshipMessage'>{$spaceship->getMessage()}</p>
+                                    <p class='card-text spaceshipDate'><small class='text-muted'>{$spaceship->getDate()}</small></p>
+                                </div>
+                                <div class='spaceshipActions'>
+                                    <p class='card-text spaceshipSector'>{$spaceship->getSector()}</p>
+                                    <div>
+                                    <a href='?action= delete&id={$spaceship->getId()}'><button onclick='confirmDelete()' type='button' >Delete</button></a>
+                                    <a href='?action=edit&id={$spaceship->getId()}'><button type='button'>Modify</button></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div>
-                            <a href='?action=delete&id={$spaceship->getId()}'><button onclick='confirmDelete()' type='button' >Delete</button></a>
-                            <a href='?action=edit&id={$spaceship->getId()}'><button type='button'>Modify</button></a>
                         </div>
                     </div>
                     ";

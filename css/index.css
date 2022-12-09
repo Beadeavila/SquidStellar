@@ -1,0 +1,81 @@
+@font-face {
+    font-family: fontTitle;
+    src: url(../public/fonts/neuropolitical.ttf);
+}
+
+@font-face {
+    font-family: fontContent;
+    src: url(../public/fonts/microgramma.ttf);
+}
+
+h1, h2, h3, h4 {
+    font-family: fontTitle;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+main {
+    margin: 0 125px;
+}
+
+.addReportButton {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 60px 0;
+}
+
+.addReportButton button {
+  all: unset;
+  cursor: pointer;
+  border: 1px solid #91becb;
+  padding: 15px 45px;
+}
+
+.card {
+    width: 100%;
+}
+
+.card .row {
+    padding: 25px;
+}
+
+.imgContainer {
+    border: 1px solid #91becb;
+}
+
+.row .dataContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.dataContainer h2{
+    line-height: 25px;
+    margin-bottom: 0px;
+}
+
+.spaceshipData {
+    position: relative;
+    width: 100%;
+}
+
+.spaceshipDate {
+position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.spaceshipActions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.spaceshipActions p {
+margin-bottom: 0;
+}
