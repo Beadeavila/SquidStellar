@@ -1,4 +1,4 @@
-![logo SquidStellar negro](https://user-images.githubusercontent.com/116545851/206684326-c44dd9d4-9af5-43e0-bc28-674090033126.png)
+![SQUID GIF 1 photorise](https://user-images.githubusercontent.com/116545851/207058098-3db717bc-91a9-4fd5-8470-8ac078714f37.gif)
 
 ## Project name: 
 SquidStellar (A SquidCoders project)
