@@ -8,7 +8,7 @@
 
         <main>
             <a class="addReportButton" href="?action=create">
-               <button type="button">New report</button> 
+                <button type="button">New report</button> 
             </a>
 
             <?php

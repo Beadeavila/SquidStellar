@@ -18,13 +18,13 @@
                                         <div class="formReportContainer">
                                                 <div class="formDataContainer">
                                                         <span>Spaceship</span>
-                                                        <input type="text" name="spaceship" required placeholder="Here goes the name of the ship">
+                                                        <input type="text" name="spaceship" style="color:#91becb" required placeholder="Here goes the name of the ship">
                                                         <span>Commander</span>
-                                                        <input type="text" name="commander" required placeholder="Here goes the name of the commander">
+                                                        <input type="text" name="commander" style="color:#91becb" required placeholder="Here goes the name of the commander">
                                                         <span>Message</span>
-                                                        <textarea area-label="With textarea" type="text" name="message" required placeholder="Here goes the message"></textarea>
+                                                        <textarea area-label="With textarea" style="color:#91becb" type="text" name="message" required placeholder="Here goes the message"></textarea>
                                                         <span>Sector</span>
-                                                        <input type="text" name="sector" required placeholder="Here goes the sector name">
+                                                        <input type="text" name="sector" style="color:#91becb" required placeholder="Here goes the sector name">
                                                 </div>
                                                 <div class="formImgContainer"><img src='public/images/squidAvatar.svg' alt='logo squid'></div>
                                         </div>
@@ -39,7 +39,7 @@
         </main>
 
         <?php
-      
+
         require_once("Components/footer.php");
 
         ?>

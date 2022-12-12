@@ -1,0 +1,83 @@
+h2.formTitle {
+    margin-left: 60px;
+}
+
+.formContainer{
+    position:relative;
+}
+
+.cancelButton{
+    position:absolute;
+    top: 0;
+    right:60px;
+}
+
+.cancelButton button{
+    all: unset;
+    cursor: pointer;
+    border: 1px solid #91becb;
+    padding: 10px 30px;
+    color: #91becb;
+    -webkit-box-shadow: 0px 0px 29px 1px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 29px 1px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 10px 1px rgba(255,255,255,0.8);
+    text-decoration: none !important;
+}
+
+.formReportContainer {
+    display: flex;
+    padding: 20px;
+}
+
+.formDataContainer {
+    width:66.66%;
+    padding-right: 30px;
+}
+
+.formDataContainer input, .formDataContainer textarea, .formDataContainer span {
+    display: block;
+    width: 100%;
+}
+
+/* .formDataContainer span {
+    margin-bottom: 10px;
+} */
+
+.formDataContainer input, .formDataContainer textarea {
+    border: 1px solid #91becb;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.formImgContainer {
+    display: flex;
+    border: 1px solid #91becb;
+    width:33.33% !important;
+}
+
+.formImgContainer img {
+    width:100% !important;
+}
+
+.formButtonContainer {
+    text-align: right;
+    padding: 20px 20px 0 0;
+}
+
+.formButtonContainer input[type="submit"], .formButtonContainer input[type="reset"] {
+    margin: 0 15px;
+    all: unset;
+    cursor: pointer;
+    border: 1px solid #91becb;
+    padding: 10px 30px;
+    color: #91becb;
+    -webkit-box-shadow: 0px 0px 29px 1px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 29px 1px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 10px 1px rgba(255,255,255,0.8);
+    text-decoration: none !important;
+}
+
+
+
