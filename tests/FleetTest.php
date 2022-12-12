@@ -8,7 +8,7 @@ use SquidStellar\Models\Fleet;
 
 class FleetTest extends TestCase{
 
-     public function test_testOk(){
+    public function test_testOk(){
 
         $this->assertEquals(1,1);
     
@@ -45,7 +45,7 @@ class FleetTest extends TestCase{
 
 
         //Then -- la crítica de esa peli = lo hacemos con los asserts
-        $this->assertEquals("SSV Normandy", $resultGetCommander);
+        $this->assertEquals("Commander Shepard", $resultGetCommander);
     }
 
     public function test_ifGetMessageWorksCorrectly(){
@@ -61,7 +61,7 @@ class FleetTest extends TestCase{
 
 
         //Then -- la crítica de esa peli = lo hacemos con los asserts
-        $this->assertEquals("SSV Normandy", $resultGetMessage);
+        $this->assertEquals("Life has been purged", $resultGetMessage);
     }
 
     public function test_ifGetSectorWorksCorrectly(){
@@ -79,7 +79,7 @@ class FleetTest extends TestCase{
         //Then -- la crítica de esa peli = lo hacemos con los asserts
         $this->assertEquals("Hawking eta", $resultGetSector);
     }
-   
+
 
 }
 
