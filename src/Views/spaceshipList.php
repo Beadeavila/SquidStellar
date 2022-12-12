@@ -25,26 +25,30 @@
                     echo "
                     
                     <div class='card mb-3'>
-                        <div class='row g-0'>
-                                <div class=' imgContainer col-md-4'>
-                                    <img src='public/images/squidAvatar.svg' class='img-fluid rounded-start' alt='logo squid'>
-                                </div>
-                            <div class='dataContainer col-md-8'>
-                                <div class='spaceshipData'>
-                                    <h2 class='card-title'>{$spaceship->getSpaceship()}</h2>
-                                    <p class='card-text spaceshipCommander'>{$spaceship->getCommander()}</p>
-                                    <p class='card-text spaceshipMessage'>{$spaceship->getMessage()}</p>
-                                    <p class='card-text spaceshipDate'><small class='text-muted'>{$spaceship->getDate()}</small></p>
-                                </div>
-                                <div class='spaceshipActions'>
-                                    <p class='card-text spaceshipSector'>{$spaceship->getSector()}</p>
-                                    <div>
-                                    <a href='?action= delete&id={$spaceship->getId()}'><button onclick='confirmDelete()' type='button' >Delete</button></a>
-                                    <a href='?action=edit&id={$spaceship->getId()}'><button type='button'>Modify</button></a>
+                        <img src='public/images/border-yutani-top.svg'>
+
+                            <div class='row g-0'>
+                                    <div class=' imgContainer col-md-4'>
+                                        <img src='public/images/squidAvatar.svg' class='img-fluid rounded-start' alt='logo squid'>
+                                    </div>
+                                <div class='dataContainer col-md-8'>
+                                    <div class='spaceshipData'>
+                                        <h2 class='card-title'>{$spaceship->getSpaceship()}</h2>
+                                        <p class='card-text spaceshipCommander'>{$spaceship->getCommander()}</p>
+                                        <p class='card-text spaceshipMessage'>{$spaceship->getMessage()}</p>
+                                        <p class='card-text spaceshipDate'><small class='text-muted'>{$spaceship->getDate()}</small></p>
+                                    </div>
+                                    <div class='spaceshipActions'>
+                                        <p class='card-text spaceshipSector'>{$spaceship->getSector()}</p>
+                                        <div>
+                                        <a href='?action= delete&id={$spaceship->getId()}'><button onclick='confirmDelete()' type='button' >Delete</button></a>
+                                        <a href='?action=edit&id={$spaceship->getId()}'><button type='button'>Modify</button></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        <img src='public/images/border-yutani.svg'>
+
                     </div>
                     ";
 

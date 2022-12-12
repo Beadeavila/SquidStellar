@@ -1,0 +1,26 @@
+h2.formTitle {
+    margin-left: 60px;
+}
+
+.formContainer{
+    position:relative;
+}
+
+.cancelButton{
+    position:absolute;
+    top: 0;
+    right:60px;
+}
+
+.cancelButton button{
+    all: unset;
+    cursor: pointer;
+    border: 1px solid #91becb;
+    padding: 15px 45px;
+    color: #91becb;
+    -webkit-box-shadow: 0px 0px 29px 1px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 29px 1px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 10px 1px rgba(255,255,255,0.8);
+    text-decoration: none !important;
+}
+

@@ -1,3 +1,3 @@
 <header>
-    <h1>SQUID STELLAR (A SquidCoders project)</h1>
+    <img src="public/images/squidstellarBlue.png">
 </header>
