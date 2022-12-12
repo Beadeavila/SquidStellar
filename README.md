@@ -58,7 +58,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ***
 ## Tests:
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+* Route:
+vendor/bin/phpunit tests/FleetTest.php
+
+* Results: OK (5 tests, 5 assertions)
+![tests results](https://user-images.githubusercontent.com/116545851/207085637-050ee5e2-1d06-4603-ad3d-825da01ce144.PNG)
 
 ***
 
@@ -70,18 +74,23 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Next steps:
 
-xxxxxxxxxxxxxxxxxxxxx
+* Implement responsive view 
 
 ***
 
 ## How to install:
 
+Requirements: 
+* Visual Studio Code
+* PHP
+* MySQL
+* Composer ⬇️ Download COMPOSER (Dependency manager for PHP) from https://getcomposer.org/ on the Download section
+
 Please follow these instructions:
 
-* Open Visual Studio Code and press new Terminal + Git Bash
-* ⬇️ Download XAMPP from https://www.apachefriends.org/es/index.html
-* ⬇️ Download COMPOSER (Dependency manager for PHP) from https://getcomposer.org/ on the Download section
+* Open Visual Studio Code and press new Terminal + Git Bash 
 * Run Composer-Setup.exe. Choose Installation for all users
 * Go back to Visual Studio Code in New Terminal and write:
 * $ git clone https://github.com/Beadeavila/SquidStellar.git
 * $ composer install
+* import SQL table from route: public/database/reports.sql
