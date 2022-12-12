@@ -10,7 +10,7 @@ Following the previous project SquidCoders, we maintained the name SQUID in this
 
 Our goal was to build a CRUD (Create, Read,Update and Delete) project in PHP and MySQL using the MVC (Model-View-Controller) pattern, where you can:
 
-* Find a Homepage where you can read all the messages received from different fiction spaceships 🚀.
+* Find a Homepage where you can read all the messages received from different fictional spaceships 🚀.
 * Create a new report by pressing the New Report button: a  HTML form appears where you can upload reports from your spaceship to our space (data)base.
 * Modify or delete reports by simply clicking a button.
 * In case of clicking on modify,an HTML form to modify reports appears on screen loading the already uploaded data from the database.
@@ -52,6 +52,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   * Other technologies used:
 <p align ="left"><a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
 <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://user-images.githubusercontent.com/116545851/206753577-40777644-bb10-428b-ae9c-597a54a58df6.png" alt="visual studio" width="40" height="40"/></a> 
+<a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> 
 </p>
 
 ***
@@ -84,4 +85,3 @@ Please follow these instructions:
 * Go back to Visual Studio Code in New Terminal and write:
 * $ git clone https://github.com/Beadeavila/SquidStellar
 * $ composer install
-* $ composer update
