@@ -34,7 +34,7 @@ Our goal was to build a CRUD (Create, Read,Update and Delete) project in PHP and
 
 * Figma project <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> 
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+![image](https://user-images.githubusercontent.com/116545731/207113666-3a13de58-2794-4202-b543-cf73c079639b.png)
 
 ## Stacks:
 
