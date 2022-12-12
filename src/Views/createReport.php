@@ -15,26 +15,23 @@
 
 
                                 <form action='?action=store' method="post">
-                                <div>
-                                        <span>Spaceship</span>
-                                        <input type="text" name="spaceship" required placeholder="Here goes the name of the ship">
-                                </div>
-                                <div>
-                                        <span>Commander</span>
-                                        <input type="text" name="commander" required placeholder="Here goes the name of the commander">
-                                </div>
-                                <div>
-                                        <span>Message</span>
-                                        <textarea area-label="With textarea" type="text" name="message" required placeholder="Here goes the message"></textarea>
-                                </div>
-                                <div>
-                                        <span>Sector</span>
-                                        <input class="form-control" type="text" name="sector" required placeholder="Here goes the sector name">
-                                </div>
-                                <div>
-                                        <input type="submit" value="Create report">
-                                        <input type="reset" value="Reset report">
-                                </div>
+                                        <div class="formReportContainer">
+                                                <div class="formDataContainer">
+                                                        <span>Spaceship</span>
+                                                        <input type="text" name="spaceship" required placeholder="Here goes the name of the ship">
+                                                        <span>Commander</span>
+                                                        <input type="text" name="commander" required placeholder="Here goes the name of the commander">
+                                                        <span>Message</span>
+                                                        <textarea area-label="With textarea" type="text" name="message" required placeholder="Here goes the message"></textarea>
+                                                        <span>Sector</span>
+                                                        <input type="text" name="sector" required placeholder="Here goes the sector name">
+                                                </div>
+                                                <div class="formImgContainer"><img src='public/images/squidAvatar.svg' alt='logo squid'></div>
+                                        </div>
+                                        <div class="formButtonContainer">
+                                                <input type="submit" value="Create report">
+                                                <input type="reset" value="Reset report">
+                                        </div>
                                 </form>    
                                 <img src='public/images/border-yutani.svg'>
                 </div>

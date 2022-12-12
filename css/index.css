@@ -2,7 +2,11 @@ body{
     background-image: url("../public/images/fondoEstrellas2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: 91becb !important;
+    color: #91becb !important;
+}
+
+a {
+    text-decoration: none;
 }
 
 @font-face {
@@ -45,7 +49,7 @@ main {
     all: unset;
     cursor: pointer;
     border: 1px solid #91becb;
-    padding: 15px 45px;
+    padding: 10px 30px;
     color: #91becb;
     -webkit-box-shadow: 0px 0px 29px 1px rgba(255,255,255,0.8);
     -moz-box-shadow: 0px 0px 29px 1px rgba(255,255,255,0.8);
