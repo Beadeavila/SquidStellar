@@ -58,10 +58,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ***
 ## Tests:
 
-* Route:
-vendor/bin/phpunit tests/FleetTest.php
+* To execute these tests use this command on Terminal > Git Bash from *Visual Studio Code*: <br>
+$ vendor/bin/phpunit tests/FleetTest.php
 
-* Results: OK (5 tests, 5 assertions)
+
+* Results: OK (5 tests, 5 assertions) <br>
 ![tests results](https://user-images.githubusercontent.com/116545851/207085637-050ee5e2-1d06-4603-ad3d-825da01ce144.PNG)
 
 ***
@@ -75,13 +76,16 @@ vendor/bin/phpunit tests/FleetTest.php
 ## Next steps:
 
 * Implement responsive view 
+* Add a video background
+* Add a sound effect
 
 ***
 
 ## How to install:
 
 Requirements: 
-* Visual Studio Code
+
+* Visual Studio Code (or similar code editor)
 * PHP
 * MySQL
 * Composer ⬇️ Download COMPOSER (Dependency manager for PHP) from https://getcomposer.org/ on the Download section
@@ -93,4 +97,5 @@ Please follow these instructions:
 * Go back to Visual Studio Code in New Terminal and write:
 * $ git clone https://github.com/Beadeavila/SquidStellar.git
 * $ composer install
+* Create your local database in phpmyadmin (MySQL) with the name *stellarcommander*
 * import SQL table from route: public/database/reports.sql
