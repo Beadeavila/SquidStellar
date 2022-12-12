@@ -83,5 +83,5 @@ Please follow these instructions:
 * ⬇️ Download COMPOSER (Dependency manager for PHP) from https://getcomposer.org/ on the Download section
 * Run Composer-Setup.exe. Choose Installation for all users
 * Go back to Visual Studio Code in New Terminal and write:
-* $ git clone https://github.com/Beadeavila/SquidStellar
+* $ git clone https://github.com/Beadeavila/SquidStellar.git
 * $ composer install
