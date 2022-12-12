@@ -2,7 +2,7 @@
 
 namespace tests;
 
-use PHPunit\Framework\TestCase;
+use PHPUnit\Framework\TestCase;
 use SquidStellar\Models\Fleet;
 
 
