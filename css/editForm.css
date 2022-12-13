@@ -39,10 +39,6 @@ h2.formTitle {
     width: 100%;
 }
 
-/* .formDataContainer span {
-    margin-bottom: 10px;
-} */
-
 .formDataContainer input, .formDataContainer textarea {
     border: 1px solid #91becb;
     background-color: transparent;
